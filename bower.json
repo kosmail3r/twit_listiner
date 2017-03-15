@@ -1,0 +1,19 @@
+{
+  "name": "twit_quarter_feeder",
+  "homepage": "https://github.com/kosmail3r/twit_quarter_feeder",
+  "authors": [ "Soroka Konstantin <kosmailer@gmail.com>" ],
+  "description": "Web app which show last 25 tweets with real-time updating.",
+  "main": "js/app.js",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "twitter-text-js": "^1.9.4"
+  }
+}

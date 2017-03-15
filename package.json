@@ -1,0 +1,17 @@
+{
+  "name": "twit_quarter_feeder",
+  "version": "0.0.1",
+  "description": "Web app which show last 25 tweets with real-time updating.",
+  "main": "js/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "kosmailer",
+  "license": "ISC",
+  "dependencies": {
+    "bower": "^1.5.2"
+  },
+  "scripts": {
+    "postinstall": "bower install"
+  }
+}
