@@ -3,7 +3,7 @@
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta charset="utf-8">
-  <title>Test Feed</title>
+  <title>Quarter twitt feeder</title>
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
   <link rel="stylesheet" href="ven/twbs/bootstrap/dist/css/bootstrap.css">
   <link rel="stylesheet" href="ven/twbs/bootstrap/dist/css/bootstrap-theme.css">
@@ -26,9 +26,9 @@
       <div id="navbar" class="collapse navbar-collapse">
         <ul class="nav navbar-nav">
           <li><a><span class="label label-default twitter-is-online">Offline</span></a></li>
-          <li class='twitter-nonauthed'><a id='twitter-login' href="oauth.php?type=twitter"><i class='icon-twitter'></i>Login</a></li>
+          <li class='twitter-nonauthed'><a id='twitter-login' href="oauth.php?type=twitter"><i class='icon-twitter'></i>Логин</a></li>
           <li class='twitter-authed'><a href="http://twitter.com/" target='_blank'><span id='twitter-username' class='label label-primary'>@<?=$this->e($twitterLogin)?></span></a></li>
-          <li class='twitter-authed'><a id='twitter-logout' href="oauth.php?type=twitter&action=logout"><i class='icon-twitter'></i>Logout</a></li>
+          <li class='twitter-authed'><a id='twitter-logout' href="oauth.php?type=twitter&action=logout"><i class='icon-twitter'></i>Выйти</a></li>
         </ul>
       </div>
     </div>

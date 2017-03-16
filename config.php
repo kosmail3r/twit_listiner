@@ -12,8 +12,8 @@ $config = [
   'rootPath' => $rootPath,
   'services' => [
     'twitter' => [
-      'consumerKey' => 'ljbnVRM64PCAKIpYwtO7GuWP8',
-      'consumerSecret' => 'cYXYbFeglwSGtd7EWkPy13RFqrj8pFYbn6FK7bmYAF5xsk6zrq',
+      'consumerKey' => '9FUS59FMwU1AtkM8l6loN3VJJ',
+      'consumerSecret' => 'jVo1IjAkzScOJmGLjArYyfRHuFHqFAxSDQiXlN1xbBaVFYdubI',
       'oauthCallback' => ($rootUrl ? $rootUrl . '/oauth.php?type=twitter' : null),
     ]
   ],
